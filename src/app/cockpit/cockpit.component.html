@@ -7,7 +7,9 @@
      >
      <!-- serverNameInput local reference which refers to the html element. we can use this reference inside the template -->
     <label>Server Content</label>
-    <input type="text" class="form-control" [(ngModel)]="newServerContent">
+    <!-- <input type="text" class="form-control" [(ngModel)]="newServerContent"> -->
+    <input type="text" class="form-control"
+     #serverContentInput>
     <br>
     <button
       class="btn btn-primary"
